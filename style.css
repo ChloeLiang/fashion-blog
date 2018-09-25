@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    padding: 2rem 2rem;
+  }
+}
+
+h1 a {
+  color: red;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h2 {
+  padding: 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+h2 a {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+  color: rgb(204, 201, 201);
+  font-weight: 300;
+}
+
+h4 a {
+  text-decoration: none;
+  color: red;
+  float: right;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(207, 202, 202);
+  margin-right: 1rem;
+  border-bottom: 1px solid rgb(207, 202, 202);
+  padding-bottom: .2rem;
+}
+
+article {
+  padding: 3rem 0 2rem 0;
+  border-bottom: 1px solid rgb(204, 201, 201);
+}
+
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  color: rgb(110, 109, 109);
+  line-height: 1.7rem;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+p::first-letter {
+  font-size: 7rem;
+  font-weight: 300;
+  color: rgb(226, 224, 224);
+  float: left;
+  padding: 2rem .5rem 2.6rem 0;
+  margin-left: -.5rem;
+}
